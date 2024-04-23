@@ -45,12 +45,23 @@ a:link {
 	height:600px;
 	margin: auto;
 }
+
+.tiktokicon {
+	width: 16px;
+	 height: 16px;
+	 color:rgb(102, 28, 110);
+	 
+}
 /* .pernil {
 	width: 200px;
 	float: right;
 } */
 .pernilList {
 	clear: right;
+}
+
+.footer li {
+display: inline-block
 }
 
 .clearfix {
