@@ -1,0 +1,84 @@
+html {
+	height: 100%
+}
+main {
+    min-height: calc(100vh - 95px);
+}
+body {
+	min-height: 100%
+}
+#detroit_pizza {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:800px;	
+}
+#corned_beef_hash {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;	
+}
+.h1 {
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	color: rgb(102, 28, 110);
+}
+.hero-text {	
+	font-size:medium;	
+	color: rgb(102, 28, 110);
+}
+.nav-link {
+	color:rgb(102, 28, 110);
+}
+
+a:link {
+	text-decoration: none;
+	color:rgb(102, 28, 110);
+  }
+.display-4 {
+	color:rgb(102, 28, 110);
+}
+
+.col {
+	width:400px;
+	height:600px;
+	margin: auto;
+}
+/* .pernil {
+	width: 200px;
+	float: right;
+} */
+.pernilList {
+	clear: right;
+}
+
+.clearfix {
+	overflow: auto;
+}
+/* #rando button {
+	padding: 100px;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+} */
+
+footer {
+	position: fixed;
+	bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+	z-index: 9999;
+	background: rgb(102, 28, 110);
+	color: white;
+  }
+
+  footer a {
+	color: white;
+  }
+  .footer-content {
+	text-align: center;
+	top: 50%;
+	left: 50%;
+  }
